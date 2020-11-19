@@ -1,20 +1,53 @@
 <!--
  * @Author: your name
- * @Date: 2020-11-19 10:50:59
- * @LastEditTime: 2020-11-19 10:51:10
+ * @Date: 2020-11-08 16:24:26
+ * @LastEditTime: 2020-11-08 19:19:07
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \前端\09_Git\01_test\Alynn-Zen.github.io\index.html
+ * @FilePath: \前端\08\index.html
 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Document</title>
   </head>
   <body>
-    <p>1</p>
-    <p>2</p>
+    <div id="drag-container">
+      <div id="spin-container">
+        <!-- Add your images (or video) here -->
+        <img src="./images/2.jpg" alt="" />
+        <img src="./images/3.jpg" alt="" />
+        <img src="./images/4.jpg" alt="" />
+        <img src="./images/5.jpg" alt="" />
+        <img src="./images/6.jpg" alt="" />
+        <img src="./images/7.jpg" alt="" />
+
+        <!-- Example image with link -->
+        <a target="_blank" href="images/1.jpg">
+          <img src="images/1.jpg" alt="" />
+        </a>
+
+        <!-- Example add video  -->
+        <!-- <video controls autoplay="autoplay" loop>
+          <source
+            src="https://player.vimeo.com/external/322244668.sd.mp4?s=338c48ac2dfcb1d4c0689968b5baf94eee6ca0c1&profile_id=165&oauth2_token_id=57447761"
+            type="video/mp4"
+          />
+        </video> -->
+
+        <!-- Text at center of ground -->
+        <p>Chen Alynn_Zen</p>
+      </div>
+      <div id="ground"></div>
+    </div>
+
+    <div id="music-container"></div>
   </body>
 </html>
+<script src="./js/index.js"></script>
